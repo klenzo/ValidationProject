@@ -1,0 +1,22 @@
+{
+  "name": "validation",
+  "authors": [
+    "klenzo <crea2luxe@gmail.com>"
+  ],
+  "description": "Projet de validation",
+  "main": "",
+  "keywords": [
+    "ecommerce",
+    "project",
+    "validation",
+    "dev9"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "materialize": "^0.97.8",
+    "font-awesome": "fontawesome#^4.7.0"
+  }
+}
