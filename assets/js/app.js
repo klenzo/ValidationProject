@@ -3,7 +3,7 @@ $(document).ready(function() {
 	$(".dropdown-button").dropdown();
 
 	$('.link_ajax').click(function(e) {
-		// e.preventDefault();
+		e.preventDefault();
 
 		var link = $(this).attr('href');
 		$.ajax({
