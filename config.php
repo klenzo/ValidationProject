@@ -17,7 +17,7 @@
 	define('SHOW_PRODUCT_NBR', 9);
 	define('SHOW_PRODUCT_ROW', 3);
 	
-	define('DEVISE_VALIDE', ['euro']);
+	// define('DEVISE_VALIDE', ['euro']);
 	
 
 // Gestion des templates

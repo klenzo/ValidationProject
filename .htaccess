@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule ^([a-zA-Z]{4,10})$ /?template=$1 [L]
+RewriteRule ^([a-zA-Z]{4,10})/([a-zA-Z]{3,6})$ /?template=$1&page=$2 [L]
+RewriteRule ^([a-zA-Z]{4,10})/([a-zA-Z]{3,6})/([0-9]{10})$ /?template=$1&page=$2&name=$3 [L]

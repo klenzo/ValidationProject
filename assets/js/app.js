@@ -6,6 +6,7 @@ $(document).ready(function() {
 		e.preventDefault();
 
 		var link = $(this).attr('href');
+		console.log(link);
 		$.ajax({
 			url: link,
 		})
@@ -14,7 +15,7 @@ $(document).ready(function() {
 			$('.nbr_cart_q').text( cart_q + 1 );
 		})
 		.fail(function(data) {
-			alert(data);
+			console.log(data);
 		});
 		
 	});

@@ -127,7 +127,7 @@
 		$users_list = [];
 		foreach ($user as $key => $value) {
 			$return[$key] = (array) $value;
-			$users_list[] = $value['name'];
+			$users_list[] = $value->name;
 		}
 
 		file_put_contents(DATA_DIR . 'users_list.json', array_keys( $users_list ));
